@@ -47,7 +47,7 @@ export const siteConfig = {
         href: '/blog',
       },
       {
-        text: '笔记',
+        text: '博文',
         href: '/blog/notes',
       },
       {
@@ -67,7 +67,7 @@ export const siteConfig = {
         href: '/blog',
       },
       {
-        text: '笔记',
+        text: '博文',
         href: '/blog/notes',
       },
       {

@@ -1,6 +1,6 @@
 ---
 title: 博客标题
-description: If you set the lang field to include zh, it will display an identifier.
+description: 如果你将 lang 字段设置为包含 zh，它将显示一个标识符。
 date: 2024-04-01
 lang: zh
 ---

@@ -1,6 +1,6 @@
 ---
-title: Blog Title
-description: If you want to tell the visitor that there is a video, you can set the video field to true.
+title: 博客标题
+description: 如果你想告诉访问者这里有一个视频，你可以将 video 字段设置为 true。
 date: 2024-02-01
 video: true
 ---

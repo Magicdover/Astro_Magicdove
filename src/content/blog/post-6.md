@@ -1,6 +1,6 @@
 ---
-title: Blog Title
-description: Vitesse theme groups posts by year and displays them sorted by date.
+title: 博客标题
+description: Vitesse 主题按年份对文章进行分组，并按日期排序显示。
 date: 2023-08-01
 ---
 

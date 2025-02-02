@@ -1,6 +1,6 @@
 ---
-title: Blog Title
-description: If you need to link to an external address, you can set the redirect field.
+title: 博客标题
+description: 如果你需要链接到一个外部地址，你可以设置 redirect 字段。
 date: 2024-02-01
 redirect: '/'
 ---
