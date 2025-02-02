@@ -1,5 +1,5 @@
 export const siteConfig = {
-  author: 'Kevin Wong',
+  author: 'Magicdove',
   title: 'Vitesse theme for Astro',
   subtitle: 'Vitesse theme for Astro, supports Vue and UnoCSS.',
   description: 'A Minimal, SEO-friendly portfolio and blog theme for Astro.',
@@ -7,17 +7,16 @@ export const siteConfig = {
     src: '/hero.jpg',
     alt: 'Website Main Image',
   },
-  email: 'kevinwong865@gmail.com',
   socialLinks: [
     {
       text: 'GitHub',
-      href: '',
+      href: 'https://github.com/Magicdover',
       icon: 'i-simple-icons-github',
       header: 'i-ri-github-line',
     },
     {
       text: 'Twitter',
-      href: '',
+      href: 'https://x.com/elonmusk',
       icon: 'i-simple-icons-x',
       header: 'i-ri-twitter-x-line',
     },
@@ -40,23 +39,23 @@ export const siteConfig = {
   header: {
     logo: {
       src: '/favicon.svg',
-      alt: 'Logo Image',
+      alt: 'Logo',
     },
     navLinks: [
       {
-        text: 'Blog',
+        text: '博客',
         href: '/blog',
       },
       {
-        text: 'Notes',
+        text: '笔记',
         href: '/blog/notes',
       },
       {
-        text: 'Talks',
+        text: '访谈',
         href: '/blog/talks',
       },
       {
-        text: 'Projects',
+        text: '项目',
         href: '/projects',
       },
     ],
@@ -64,15 +63,15 @@ export const siteConfig = {
   page: {
     blogLinks: [
       {
-        text: 'Blog',
+        text: '博客',
         href: '/blog',
       },
       {
-        text: 'Notes',
+        text: '笔记',
         href: '/blog/notes',
       },
       {
-        text: 'Talks',
+        text: '访谈',
         href: '/blog/talks',
       },
     ],

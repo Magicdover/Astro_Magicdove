@@ -5,76 +5,25 @@ import siteConfig from '@/site-config'
 
 <BaseLayout description={siteConfig.description}>
   <article class="prose">
-    <h1 class="text-title">Vitesse theme</h1>
-    <p>Vitesse theme for Astro, supports Vue and UnoCSS.</p>
+    <h1 class="text-title">魔力鸽</h1>
+    <p>欢迎来到魔力鸽的博客！</p>
     <p>
-      A minimal, SEO-riendly portfolio and blog theme for Astro. It's inspired by <a
-        target="_blank"
-        href="https://antfu.me">antfu.me</a
-      >.
+      关于博客：本博客基于 Vitesse theme for Astro 创建，这是一个基于 Astro
+      的静态网站主题，可以用于搭建博客或个人网站。Vitesse theme 采用了简洁、清晰的色彩搭配，使得代码易于阅读和理解。
     </p>
     <p>
-      <img width="640" height="360" src="/hero.jpg" alt="Hero Image" />
-    </p>
-    <p>
-      Based on first principles thinking, and you can also see from the picture
-      <sup>👆</sup>, the goal of this theme is to
-      <b>make complex things as simple as possible</b>
-      . So, the core of this theme is the content, and the other elements are just auxiliary.
-    </p>
-    <p>Here are the features you don't need to worry about:</p>
-    <ul>
-      <li>100 / 100 Lighthouse performance</li>
-      <li>Responsive</li>
-      <li>SEO-friendly</li>
-      <li>Light / Dark Theme</li>
-      <li>Markdown support</li>
-      <li>
-        <a target="_blank" href="https://mdxjs.com/">MDX</a>
-        (components in your markdown) support
-      </li>
-      <li>
-        <a target="_blank" href="https://vuejs.org/">Vue</a>
-        SFC component support
-      </li>
-      <li>Auto generated sitemap and RSS Feed</li>
-      <li>
-        <a target="_blank" href="https://vueuse.org/">VueUse</a>
-        &
-        <a target="_blank" href="https://lodash.com/">Lodash</a>
-        support
-      </li>
-    </ul>
-    <p>
-      By the way, this theme use the <a target="_blank" href="https://unocss.dev/">UnoCSS</a> for style, it's fast.
-    </p>
-    <p>
-      Visit it
-      <a target="_blank" href="https://github.com/kevinwong865/astro-theme-vitesse"> on GitHub </a>
-      to fork the repository, read the docs or one-click deploy on Netlify.
-    </p>
-    <p>
-      If you like Vitesse theme for Astro, please
-      <a target="_blank" href="https://github.com/kevinwong865"> click follow </a>
-      for me.
+      关于我：我是一个计算机和编程技术爱好者，非科班出身，却乐在其中。我平日喜欢写作，尤其是关于日常、旅游、影视等话题的小短文。也许在某个人生节点，我会写本书。也许就是明天，谁知道呢。
     </p>
     <hr class="hr-line" />
-    <p>Find me on</p>
-    <p class="flex gap-x-4 gap-y-2 flex-wrap">
-      {
-        siteConfig.socialLinks.map((link) => (
-          <a aria-label={link.text} href={link.href} target="_blank" class="prose-link">
-            <i class:list={[link.icon]} />
-            {link.text}
-          </a>
-        ))
-      }
-    </p>
     <p>
-      If you have any questions, please email me at
-      <a prose-link aria-label={siteConfig.email} href={`mailto:${siteConfig.email}`}>
-        {siteConfig.email}
-      </a>.
+      <b
+        ><font size="3" color="red" face="黑体">
+          樹茲石於講舍，繫哀思而不忘。表哲人之奇節，訴真宰之茫茫。來世不可知者也，先生之著述，或有時而不章。先生之學說，或有時而可商。惟此獨立之精神，自由之思想，歷千萬祀，與天壤而同久，共三光而永光。
+        </font>
+      </b>
+      <p style="text-align: right;">
+        <b><font size="3" color="red" face="黑体"> 民國十八年 陳寅恪 《清華大學王觀堂先生紀念碑銘》 </font></b>
+      </p>
     </p>
   </article>
 </BaseLayout>
